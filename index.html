@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phonebook</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+</head>
+<body>
+
+<div id="first-window">
+    <div id="head" class="clearfix">
+        <div class="input-group margin-bottom-sm">
+            <span class="input-group-addon"><i class="fa fa-search fa-fw"></i></span>
+            <input id="search-field" class="form-control" type="text" placeholder="Enter name...">
+        </div>
+        <div class="add-new-contact">
+            <button id="add-btn" class="icon-pluss">
+                <p class="pluss">+</p>
+            </button>
+        </div>
+    </div>
+    <div>
+        <p id="title1">All Contacts:</p>
+        <p id="title2">result:</p>
+        <ul id="contacts-field">
+        </ul>
+    </div>
+</div>
+
+
+<div id="edit-window">
+    <div id="name-box">
+        <p id="edit-title1">new contact</p>
+        <p id="edit-title2">edit contact</p>
+        <p><input id="first-name-field" placeholder="name"></p>
+        <p><input id="last-name-field" placeholder="surname"></p>
+    </div>
+    <div id="phone-box">
+        <p>number:</p>
+        <ul id="phones-field">
+        </ul>
+        <button id="add-phone-btn">add phone number</button>
+    </div>
+    <div id="emeils-box">
+        <p>E-mail:</p>
+        <ul id="emails-field">
+        </ul>
+        <button id="add-email-btn">add E-mail</button>
+    </div>
+    <div id="check-box">
+        <ul>
+            <li>
+                <button id="apply-btn"><i class="fa fa-check"></i></button>
+            </li>
+            <li>
+                <button id="tresh-btn"><i class="fa fa-trash"></i></button>
+            </li>
+            <li>
+                <button id="cancel-btn"><i class="fa fa-reply fa-flip-horizontal" aria-hidden="true"></i></button>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
